@@ -5,51 +5,61 @@ import ReactDOM from 'react-dom';
 
 /* Add NavLink to importer */
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+
+/* Add basic styling for NavLinks */
+const link = {
+  width: '100px',
+  padding: '12px',
+  margin: '0 6px 6px',
+  background: 'blue',
+  textDecoration: 'none',
+  color: 'white',
+}
  
-const Home = () => {
-  return (
-    <div>
-      <h1>Home!</h1>
-    </div>
-  );
-};
+// const Home = () => {
+//   return (
+//     <div>
+//       <h1>Home!</h1>
+//     </div>
+//   );
+// };
  
- const About = () => {
-  return (
-    <div>
-      <h1>This is my about component!</h1>
-    </div>
-  );
-};
+// const About = () => {
+//   return (
+//     <div>
+//       <h1>This is my about component!</h1>
+//     </div>
+//   );
+// };
 
 
-const Login = () => {
-  return (
-    <div>
-      <form>
-        <div>
-          <input type="text" name="username" placeholder="Username" />
-          <label htmlFor="username">Username</label>
-        </div>
-        <div>
-          <input type="password" name="password" placeholder="Password" />
-          <label htmlFor="password">Password</label>
-        </div>
-        <input type="submit" value="Login" />
-      </form>
-    </div>
-  );
-};
+// const Login = () => {
+//   return (
+//     <div>
+//       <form>
+//         <div>
+//           <input type="text" name="username" placeholder="Username" />
+//           <label htmlFor="username">Username</label>
+//         </div>
+//         <div>
+//           <input type="password" name="password" placeholder="Password" />
+//           <label htmlFor="password">Password</label>
+//         </div>
+//         <input type="submit" value="Login" />
+//       </form>
+//     </div>
+//   );
+// };
 
 // Step 2. Changed to have router coordinate what is displayed
 
-ReactDOM.render((
-  <Router>
-   <div>
-     <Route path="/" component={Home} />
-     <Route exact path="/about" component={About} />
-    <Route exact path="/login" component={Login} />
-    </div>
-  </Router>),
-  document.getElementById('root')
-);
+// ReactDOM.render((
+//   <Router>
+//   <div>
+//     <Route path="/" component={Home} />
+//     <Route exact path="/about" component={About} />
+//     <Route exact path="/login" component={Login} />
+//     </div>
+//   </Router>),
+//   document.getElementById('root')
+// );
