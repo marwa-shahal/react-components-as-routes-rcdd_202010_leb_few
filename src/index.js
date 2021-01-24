@@ -9,7 +9,8 @@ const Home = () => {
   );
 };
 
-ReactDOM.render(
+ReactDOM.render
+  ]
   <Home />,
   document.getElementById('root')
 );
