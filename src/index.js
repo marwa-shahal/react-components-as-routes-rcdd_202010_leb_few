@@ -1,9 +1,6 @@
-//import React from 'react';
-//import ReactDOM from 'react-dom';
-// Step 1. Import react-router functions
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
+//with link / all in the same comp
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // /* Add NavLink to importer */
@@ -84,8 +81,11 @@
 
 
 
-
-
+//without link / all in the same plcae 
+//import React from 'react';
+//import ReactDOM from 'react-dom';
+// Step 1. Import react-router functions
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 
  
 // const Home = () => {
